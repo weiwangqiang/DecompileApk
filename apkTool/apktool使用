@@ -1,0 +1,1 @@
+sh apktool.sh apktool d /Users/wei/Android/workplace/xxx.apk

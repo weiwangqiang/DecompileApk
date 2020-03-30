@@ -18,3 +18,21 @@ python DecompileApk.py /Volumes/G/xxxx.apk
 如下，就可看到apk的源码了
 
 ![](https://github.com/weiwangqiang/ProjectIcn/blob/master/picture/csdn/2.jpg?raw=true)
+
+
+# ApkTool
+
+以上的方法只能用于反编译源码，但是不能获取到apk的资源文件，这里就需要使用apkTool了，方法如下：
+
+到apkTool 路径下，执行
+
+```java
+ apktool d xxx/xxx.apk -o /test
+
+```
+
+其中 `d`的参数是apk的路径，`-o` 指需要把反编译后的资源放在哪里，可以不指定，默认在当前目录下。
+
+获取到的结果如下，包含Androidmanifest，res,layout,asset等。
+
+![](https://raw.githubusercontent.com/weiwangqiang/ProjectIcn/master/picture/csdn/decompileApk_res.jpg)
