@@ -24,9 +24,10 @@ python DecompileApk.py /Volumes/G/xxxx.apk
 
 以上的方法只能用于反编译源码，但是不能获取到apk的资源文件，这里就需要使用apkTool了，方法如下：
 
-到apkTool 路径下，执行
+到~DecompileApk/apkTool 路径下，执行
 
 ```java
+
  apktool d xxx/xxx.apk -o /test
 
 ```
