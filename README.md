@@ -37,3 +37,20 @@ python DecompileApk.py /Volumes/G/xxxx.apk
 获取到的结果如下，包含Androidmanifest，res,layout,asset等。
 
 ![](https://raw.githubusercontent.com/weiwangqiang/ProjectIcn/master/picture/csdn/decompileApk_res.jpg)
+
+
+# 多Dex
+
+目前暂时不支持多dex的apk，需要手动使用dex-tools-2.1-SNAPSHOT/d2j-dex2jar.sh 脚本
+
+```sh
+
+ d2j-dex2jar.sh apk路径
+
+```
+
+## 关于JD-GUI找不到Java版本的问题
+
+可以参考如下文章
+
+[Java反编译工具JD-GUI还是报错找不到java 1.8+](https://www.cnblogs.com/juhy/p/14193476.html)

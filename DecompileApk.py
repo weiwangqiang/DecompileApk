@@ -7,7 +7,7 @@ from shutil import copyfile
 
 invoke_path = os.path.join(os.getcwd(), "dex-tools-2.1-SNAPSHOT/d2j_invoke.sh")
 dex2jar_path = os.path.join(os.getcwd(), "dex-tools-2.1-SNAPSHOT/d2j-dex2jar.sh")
-jd_gui_path = os.path.join(os.getcwd(), 'jd-gui-osx-1.4.0')
+jd_gui_path = os.path.join(os.getcwd(), 'jd-gui-osx-1.6.6')
 gui_app = os.path.join(jd_gui_path, 'JD-GUI.app')
 
 
